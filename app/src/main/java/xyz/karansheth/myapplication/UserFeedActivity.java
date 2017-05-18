@@ -34,5 +34,7 @@ public class UserFeedActivity extends AppCompatActivity {
         mAuth.getInstance().signOut();
         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
         startActivity(intent);
+
+        //Comments
     }
 }
